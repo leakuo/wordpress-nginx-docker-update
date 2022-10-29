@@ -2,8 +2,8 @@
 
 Notes on deploying a single site [WordPress FPM Edition](https://hub.docker.com/_/wordpress/) instance as a docker deployment orchestrated by Docker Compose.
 
-- Use the FPM version of WordPress (v5-fpm)
-- Use MySQL as the database (v8)
+- Use the FPM version of WordPress (6.0.3-php8.1-fpm)
+- Use MySQL as the database (5.7.40-debian)
 - Use Nginx as the web server (v1)
 - Use Adminer as the database management tool (v4)
 - Include self-signed SSL certificate ([Let's Encrypt localhost](https://letsencrypt.org/docs/certificates-for-localhost/) format)
